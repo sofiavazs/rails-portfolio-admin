@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rails Admin</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <link rel="stylesheet" href="<%= asset_path('rails_admin.css') %>">
+  </head>
+
+  <body class="rails_admin">
+    <%= yield %>
+  </body>
+</html>
